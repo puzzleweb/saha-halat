@@ -406,7 +406,7 @@ function Contact() {
         <ChainPattern />
       </div>
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
           <div>
             <div className="text-brand-yellow font-bold text-sm uppercase tracking-[0.3em] mb-4">
               — İletişim
@@ -471,13 +471,6 @@ function Contact() {
                 </div>
               </div>
             </div>
-
-            <div className="mt-10 aspect-[16/9] bg-white/5 border border-white/10 flex items-center justify-center">
-              <div className="text-center text-white/40">
-                <MapPin className="h-8 w-8 mx-auto mb-2" />
-                <div className="text-xs uppercase tracking-wider">Harita / Konum</div>
-              </div>
-            </div>
           </div>
 
           <form
@@ -540,6 +533,13 @@ function Contact() {
               </button>
             </div>
           </form>
+        </div>
+
+        <div className="mt-12 lg:mt-16 aspect-[21/9] w-full bg-white/5 border border-white/10 flex items-center justify-center">
+          <div className="text-center text-white/40">
+            <MapPin className="h-8 w-8 mx-auto mb-2" />
+            <div className="text-xs uppercase tracking-wider">Harita / Konum</div>
+          </div>
         </div>
       </div>
     </section>
