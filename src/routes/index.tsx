@@ -38,11 +38,11 @@ export const Route = createFileRoute("/")({
 });
 
 const NAV = [
-  { label: "Anasayfa", href: "#anasayfa" },
-  { label: "Hakkımızda", href: "#hakkimizda" },
-  { label: "Ürünler", href: "#urunler" },
-  { label: "Neden Biz", href: "#neden-biz" },
-  { label: "İletişim", href: "#iletisim" },
+  { label: "ANASAYFA", href: "#anasayfa" },
+  { label: "HAKKIMIZDA", href: "#hakkimizda" },
+  { label: "ÜRÜNLER", href: "#urunler" },
+  { label: "NEDEN BİZ", href: "#neden-biz" },
+  { label: "İLETİŞİM", href: "#iletisim" },
 ];
 
 function Logo() {
