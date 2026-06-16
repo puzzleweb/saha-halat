@@ -163,7 +163,7 @@ function Hero() {
             Endüstriyel İmalat — Ankara
           </div>
           <h1 className="font-display text-brand-dark text-5xl sm:text-6xl lg:text-7xl font-black uppercase leading-[0.95] tracking-tight">
-            Saha Zincir
+            SAHA ZİNCİR
             <br />
             Çelik Halat
           </h1>
