@@ -8,7 +8,6 @@ export const getRouter = () => {
   const router = createRouter({
     routeTree,
     context: { queryClient },
-    basepath: "/saha-halat/",
     scrollRestoration: true,
     defaultPreloadStaleTime: 0,
   });
