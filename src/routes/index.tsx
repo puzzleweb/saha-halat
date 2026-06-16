@@ -30,7 +30,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Çelik halat, zincirr ve bağlantı aparatları imalatçısı. Sahada güvenin adı.",
+          "Çelik halat, zincir ve bağlantı aparatları imalatçısı. Sahada güvenin adı.",
       },
     ],
   }),
