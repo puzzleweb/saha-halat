@@ -58,7 +58,7 @@ function Logo() {
           SAHA HALAT
         </div>
         <div className="text-[10px] text-brand-yellow/70 uppercase tracking-[0.2em]">
-          Çelik Halat & Zincir
+          ÇELİK HALAT & ZİNCİR
         </div>
       </div>
     </a>
@@ -160,17 +160,17 @@ function Hero() {
         <div className="max-w-4xl">
           <div className="inline-flex items-center gap-2 bg-brand-dark text-brand-yellow px-3 py-1.5 text-xs font-bold uppercase tracking-[0.2em] mb-6">
             <span className="h-2 w-2 bg-brand-yellow" />
-            Endüstriyel İmalat — Ankara
+            ENDÜSTRİYEL İMALAT - ANKARA
           </div>
           <h1 className="font-display text-brand-dark text-5xl sm:text-6xl lg:text-7xl font-black uppercase leading-[0.95] tracking-tight">
             SAHA ZİNCİR
             <br />
-            Çelik Halat
+            ÇELİK HALAT
           </h1>
           <div className="mt-6 flex items-center gap-4">
             <div className="h-1 w-16 bg-brand-dark" />
             <p className="font-display text-brand-dark text-lg sm:text-xl font-bold uppercase">
-              İmalat San. ve Tic. Ltd. Şti.
+              İMALAT SAN. VE TİC. LTD. ŞTİ.
             </p>
           </div>
           <p className="mt-4 font-display text-brand-dark/80 text-2xl sm:text-3xl font-extrabold italic">
@@ -187,13 +187,13 @@ function Hero() {
               href="#urunler"
               className="inline-flex items-center gap-2 bg-brand-dark text-brand-yellow px-6 py-4 font-bold text-sm uppercase tracking-wider hover:bg-black transition-colors"
             >
-              Ürünlerimizi İnceleyin <ArrowRight className="h-4 w-4" />
+              ÜRÜNLERİMİZİ İNCELEYİN <ArrowRight className="h-4 w-4" />
             </a>
             <a
               href="#iletisim"
               className="inline-flex items-center gap-2 border-2 border-brand-dark text-brand-dark px-6 py-4 font-bold text-sm uppercase tracking-wider hover:bg-brand-dark hover:text-brand-yellow transition-colors"
             >
-              Bize Ulaşın
+              BİZE ULAŞIN
             </a>
           </div>
         </div>
@@ -228,9 +228,9 @@ function About() {
               — Hakkımızda
             </div>
             <h2 className="font-display text-brand-dark text-4xl lg:text-5xl font-black uppercase leading-tight">
-              Sahada Test Edilmiş
+              SAHADA TEST EDİLMİŞ
               <br />
-              Endüstriyel Kalite
+              ENDÜSTRİYEL KALİTE
             </h2>
             <div className="mt-8 space-y-5 text-brand-dark/80 leading-relaxed">
               <p>
@@ -282,22 +282,22 @@ function About() {
 const PRODUCTS = [
   {
     icon: Cog,
-    title: "Çelik Halat",
+    title: "ÇELİK HALAT",
     desc: "Galvanizli ve siyah çelik halat çeşitleri. Vinç, asansör, inşaat ve denizcilik uygulamaları için her çap ve konstrüksiyonda imalat.",
   },
   {
     icon: Link2,
-    title: "Zincir",
+    title: "ZİNCİR",
     desc: "Yük zinciri, kalibre zincir, gemici zinciri ve dekoratif zincir üretimi. Yüksek mukavemet, sertifikalı kalite.",
   },
   {
     icon: Anchor,
-    title: "Bağlantı Aparatları",
+    title: "BAĞLANTI APARATLARI",
     desc: "Kanca, mapa, kasnak, mapa, kilit, sapan ve vinç aksesuarları. Halat ve zincir sistemleri için komple çözüm.",
   },
   {
     icon: Hammer,
-    title: "Özel İmalat",
+    title: "ÖZEL İMALAT",
     desc: "Talebe göre özel ölçü, özel uç bağlantısı ve projeye özel sapan imalatı. Mühendislik desteği ile birlikte üretim.",
   },
 ];
@@ -308,12 +308,12 @@ function Products() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl mb-14">
           <div className="text-brand-yellow font-bold text-sm uppercase tracking-[0.3em] mb-4">
-            — Ürünlerimiz
+            — ÜRÜNLERİMİZ
           </div>
           <h2 className="font-display text-brand-dark text-4xl lg:text-5xl font-black uppercase leading-tight">
-            Çelik Halattan Zincire,
+            ÇELİK HALATTAN ZİNCİRE,
             <br />
-            Tam Kapsamlı Üretim
+            TAM KAPSAMLI ÜRETİM
           </h2>
         </div>
 
@@ -343,22 +343,22 @@ function Products() {
 const WHY = [
   {
     icon: ShieldCheck,
-    title: "Kalite Kontrol",
+    title: "KALİTE KONTROL",
     desc: "Hammaddeden son ürüne kadar her aşamada test ve sertifikasyon.",
   },
   {
     icon: Truck,
-    title: "Hızlı Teslimat",
+    title: "HIZLI TESLİMAT",
     desc: "Geniş stok ve etkin lojistik ile Türkiye geneline hızlı sevkiyat.",
   },
   {
     icon: Wrench,
-    title: "Teknik Destek",
+    title: "TEKNİK DESTEK",
     desc: "Doğru ürün seçimi ve uygulama için mühendis ekibimizden destek.",
   },
   {
     icon: Award,
-    title: "Güvenlik Standardı",
+    title: "GÜVENLİK STANDARDI",
     desc: "Uluslararası standartlarda dayanıklılık ve iş güvenliği uyumu.",
   },
 ];
@@ -369,10 +369,10 @@ function WhyUs() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl mb-14">
           <div className="text-brand-yellow font-bold text-sm uppercase tracking-[0.3em] mb-4">
-            — Neden Saha Halat
+            — NEDEN SAHA HALAT
           </div>
           <h2 className="font-display text-brand-dark text-4xl lg:text-5xl font-black uppercase leading-tight">
-            Neden Bizi Seçmelisiniz?
+            NEDEN BİZİ SEÇMELİSİNİZ?
           </h2>
         </div>
 
@@ -409,12 +409,12 @@ function Contact() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
           <div>
             <div className="text-brand-yellow font-bold text-sm uppercase tracking-[0.3em] mb-4">
-              — İletişim
+              — İLETİŞİM
             </div>
             <h2 className="font-display text-white text-4xl lg:text-5xl font-black uppercase leading-tight">
-              Projeniz İçin
+              PROJENİZ İÇİN
               <br />
-              <span className="text-brand-yellow">Bize Ulaşın</span>
+              <span className="text-brand-yellow">BİZE ULAŞIN</span>
             </h2>
             <p className="mt-6 text-white/70 leading-relaxed max-w-md">
               Ürün talepleriniz, özel imalat projeleriniz ve teknik
@@ -481,7 +481,7 @@ function Contact() {
             className="bg-white p-8 lg:p-10"
           >
             <h3 className="font-display text-brand-dark text-2xl font-extrabold uppercase mb-6">
-              Hızlı İletişim Formu
+              HIZLI İLETİŞİM FORMU
             </h3>
             <div className="space-y-4">
               <div>
@@ -560,7 +560,7 @@ function Footer() {
           </div>
           <div>
             <div className="text-brand-yellow font-bold text-xs uppercase tracking-[0.3em] mb-4">
-              İletişim
+              İLETİŞİM
             </div>
             <div className="space-y-2 text-white/80 text-sm">
               <a href="tel:+903125119372" className="block hover:text-brand-yellow">
@@ -579,7 +579,7 @@ function Footer() {
           </div>
           <div>
             <div className="text-brand-yellow font-bold text-xs uppercase tracking-[0.3em] mb-4">
-              Hızlı Erişim
+              HIZLI ERİŞİM
             </div>
             <div className="space-y-2 text-sm">
               {NAV.map((n) => (
